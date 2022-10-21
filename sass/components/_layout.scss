@@ -63,8 +63,8 @@
 	.content-narrow,
 	.no-sidebar {
 		.main {
-			margin-left: ($sidebar-width + $sidebar-margin) / 2;
-			margin-right: ($sidebar-width + $sidebar-margin) / 2;
+			margin-left: calc(($sidebar-width + $sidebar-margin) / 2);
+			margin-right: calc(($sidebar-width + $sidebar-margin) / 2);
 		}
 	}
 	.grid.no-sidebar,
