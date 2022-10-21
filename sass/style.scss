@@ -1,0 +1,40 @@
+/*!
+ * Theme Name:   themebase
+ * Theme URI:    elightup.com
+ * Author:       GretaThemes
+ * Author URI:   https://elightup.com
+ * Description:  Description
+ * Version:      1.0
+ * License:      GNU General Public License v2 or later
+ * License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ * Tested up to: 5.5.1
+ * Requires PHP: 5.6
+ * Text Domain:  themebase
+ * Tags:         blog, news, portfolio, grid-layout, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, microformats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+ */
+
+@import "variables";
+@import "mixins";
+
+@import "base/normalize";
+@import "base/typography";
+@import "base/elements";
+@import "base/accessibility";
+@import "base/alignments";
+@import "base/media";
+
+@import "components/layout";
+@import "components/blocks/style";
+@import "components/header";
+@import "components/menu";
+@import "components/header-search";
+@import "components/comments";
+@import "components/footer";
+
+@import "components/archive";
+@import "components/post";
+@import "components/widgets";
+
+@import "components/pagination";
+
+@import "components/woocommerce";
